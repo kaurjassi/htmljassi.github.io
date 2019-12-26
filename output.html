@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>output types in javascript</title>
+    <script>
+        function myfun1()
+        {
+            document.getElementById("mypara").innerHTML=15+16;
+        }
+        function myfun2()
+        {
+            document.write("hello world"); //this shows only the html value.it exits all the other buttons.
+        }
+        function myfun()
+        {
+            window.alert("ARE YOU SURE TO EXIT????");
+        }
+        function myfun3()
+        {
+            var a = 120; //integer varible
+            var name = "jassiiiii"; //string variable
+            var ch = 'mandeep'; //charcter variable
+            var pi = "3.14"; //float variable
+            var b = 201; //integer variable
+            var c = a+b;
+        
+            window.alert(c);
+        
+        }
+        
+        
+        </script>
+    
+</head>
+    <body>
+    <p id="mypara">
+        
+        </p>
+    <button onclick="myfun1();">BUTTON1</button>
+        <button onclick="myfun2();">BUTTON2</button>
+        <button onclick="myfun();">BUTTON3</button>
+        <button onclick="myfun3();">BUTTON4</button>
+    
+    
+    
+    </body>
+</html>
